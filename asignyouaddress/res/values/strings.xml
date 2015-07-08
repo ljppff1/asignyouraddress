@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">asignyouaddress</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_title">機電工程處</string>
+    <string name="loginName">用戶</string>
+    <string name="tell">手機</string>
+    <string name="login_btn">登錄</string>
+    <string name="toasta">用戶名</string>
+    <string name="toastb">手機號</string>
+    <string name="toast11">請檢查網絡</string>
+    <string name="sign">發布我的位置</string>
+    <string name="loadinglocal">正在獲取地理位置信息...</string>
+    
+    
+    
+</resources>
