@@ -8,7 +8,8 @@ package com.example.asignyouaddress.view;
  * @version V1.0
  */
 
-import com.example.asignyouaddress.R;
+
+import com.webdesign688.emsd.R;
 
 import android.app.Dialog;
 import android.content.Context;

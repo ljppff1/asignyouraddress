@@ -34,13 +34,7 @@ public final  class Content {
 	public static final String FORJOB = HOME_URL+"joblist.php";
 	public static final String FORJOBDETAIL = HOME_URL+"jobdetail.php";
 	public static final String FORJOBTHIS = HOME_URL+"m_jobapplypost.php";
-	
-	
-	
-	
-	
-	
-	
+
 	public static String HTTP ="http://car.cyy928.com";
 
 	
