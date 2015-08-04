@@ -7,8 +7,10 @@ import java.util.List;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -71,10 +73,30 @@ public class MyPushMessageReceiver extends PushMessageReceiver {
         Log.d(TAG, responseString);
 
         if (errorCode == 0) {
-            // 绑定成功
+            // 绑定成功  3683690456087485211
+    		SharedPreferences mySharedPreferences1 = context.getSharedPreferences(
+    				"ASIGN", Activity.MODE_PRIVATE);
+    		SharedPreferences.Editor editor1 = mySharedPreferences1
+    				.edit();
+    		editor1.putString("CHANNEID", channelId);
+    		editor1.commit();
+        	
         }
         // Demo更新界面展示代码，应用请在这里加入自己的处理逻辑
+		SharedPreferences mySharedPreferences1 = context.getSharedPreferences(
+				"ASIGN", Activity.MODE_PRIVATE);
+		String flag = mySharedPreferences1.getString("FLAG", "0");
+		
+	
+        if(!flag.equals("0")){
+			SharedPreferences.Editor editor1 = mySharedPreferences1
+					.edit();
+			editor1.putString("ISCAN", 1+"");
+			editor1.commit();
+
         updateContent(context, responseString);
+        }
+        
     }
 
     /**

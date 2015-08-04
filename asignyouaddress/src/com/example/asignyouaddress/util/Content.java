@@ -22,7 +22,7 @@ public final  class Content {
 	public static final String JOB1 = HOME_URL+"categoryonelist.php";
 	public static final String JOB2 = HOME_URL+"categorytwolist.php";
 	public static final String JOB3 = HOME_URL+"categorythreelist.php";
-	public static final String REGISTER = HOME_URL+"m_reg.php";
+	public static final String REGISTER = "http://josie.i3.com.hk/emsd/json/m_reg.php";
 	public static final String PUBINFO = HOME_URL+"m_jobpost.php";
 	public static final String PUBLIST = HOME_URL+"m_joblist.php";
 	public static final String MYREVLIST = HOME_URL+"m_myjobapply.php";

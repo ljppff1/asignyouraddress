@@ -1,5 +1,7 @@
 package com.example.asignyouaddress;
 
+import com.baidu.android.pushservice.PushConstants;
+import com.baidu.android.pushservice.PushManager;
 import com.webdesign688.emsd.R;
 
 import android.app.Activity;
@@ -11,27 +13,27 @@ import android.view.Window;
 import android.view.WindowManager;
 
 public class MainActivity extends Activity {
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        PushManager.startWork(getApplicationContext(),PushConstants.LOGIN_TYPE_API_KEY,
+                Utils.getMetaValue(MainActivity.this, "api_key"));
+
 		setContentView(R.layout.activity_main);
 		SharedPreferences mySharedPreferences1 = getSharedPreferences(
 				"ASIGN", Activity.MODE_PRIVATE);
 		String flag = mySharedPreferences1.getString("FLAG", "0");
-		startActivity(new Intent(getApplicationContext(), LoginActivity.class));
-
-	/*	if(flag.equals("0")){
+		//startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+        
+		if(flag.equals("0")){
 		startActivity(new Intent(getApplicationContext(), LoginActivity.class));
 		}
 		else{
 			startActivity(new Intent(getApplicationContext(), SignActivity.class));
 
-		}*/
+		}
 		finish();
-		
 	}
-
-
-	
 }

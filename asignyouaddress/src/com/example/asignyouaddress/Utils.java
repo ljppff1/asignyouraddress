@@ -13,6 +13,9 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 
 public class Utils {
+	
+    public static Boolean islogin = false;
+
     public static final String TAG = "PushDemoActivity";
     public static final String RESPONSE_METHOD = "method";
     public static final String RESPONSE_CONTENT = "content";

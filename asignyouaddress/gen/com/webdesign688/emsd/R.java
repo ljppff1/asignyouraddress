@@ -11,10 +11,14 @@ public final class R {
     public static final class anim {
         public static final int edit_text=0x7f040000;
         public static final int popshow_anim=0x7f040001;
-        public static final int slide_left_in=0x7f040002;
-        public static final int slide_left_out=0x7f040003;
-        public static final int slide_right_in=0x7f040004;
-        public static final int slide_right_out=0x7f040005;
+        public static final int push_left_in=0x7f040002;
+        public static final int push_left_out=0x7f040003;
+        public static final int push_right_in=0x7f040004;
+        public static final int push_right_out=0x7f040005;
+        public static final int slide_left_in=0x7f040006;
+        public static final int slide_left_out=0x7f040007;
+        public static final int slide_right_in=0x7f040008;
+        public static final int slide_right_out=0x7f040009;
     }
     public static final class attr {
     }
@@ -79,31 +83,49 @@ public final class R {
         public static final int title_margin_vertical=0x7f06000b;
     }
     public static final class drawable {
-        public static final int button=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int input_over=0x7f020002;
-        public static final int linecolor=0x7f020008;
-        public static final int login_input=0x7f020003;
-        public static final int propress_dialog_bg=0x7f020004;
-        public static final int qq_btn_normal=0x7f020005;
-        public static final int qq_btn_pressed=0x7f020006;
-        public static final int skinpic_blue=0x7f020007;
+        public static final int background=0x7f020000;
+        public static final int background1=0x7f020001;
+        public static final int button=0x7f020002;
+        public static final int circle_message=0x7f020003;
+        public static final int et1=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int imgwhat=0x7f020006;
+        public static final int input_over=0x7f020007;
+        public static final int linecolor=0x7f020014;
+        public static final int login_b1=0x7f020008;
+        public static final int login_img1=0x7f020009;
+        public static final int login_input=0x7f02000a;
+        public static final int noselect=0x7f02000b;
+        public static final int propress_dialog_bg=0x7f02000c;
+        public static final int qq_btn_normal=0x7f02000d;
+        public static final int qq_btn_pressed=0x7f02000e;
+        public static final int selector_calendar=0x7f02000f;
+        public static final int sign_img1=0x7f020010;
+        public static final int signcenter=0x7f020011;
+        public static final int skinpic_blue=0x7f020012;
+        public static final int title_top_left=0x7f020013;
     }
     public static final class id {
-        public static final int account=0x7f090002;
-        public static final int loading_process_dialog_progressBar=0x7f090007;
-        public static final int loginhead=0x7f090001;
-        public static final int password=0x7f090004;
-        public static final int re_head=0x7f090000;
-        public static final int ui_login_btn=0x7f090006;
-        public static final int ui_password_input=0x7f090005;
+        public static final int account=0x7f090008;
+        public static final int loading_process_dialog_progressBar=0x7f09000a;
+        public static final int loginhead=0x7f090007;
+        public static final int mLLsend=0x7f090001;
+        public static final int mRlre1=0x7f090000;
+        public static final int password=0x7f090009;
+        public static final int re_head=0x7f090006;
+        public static final int tv_calendar=0x7f090002;
+        public static final int ui_login_btn=0x7f090005;
+        public static final int ui_password_input=0x7f090004;
         public static final int ui_username_input=0x7f090003;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int login=0x7f030001;
-        public static final int propress_dialog=0x7f030002;
-        public static final int sign=0x7f030003;
+        public static final int chosereserva=0x7f030001;
+        public static final int item_calendar=0x7f030002;
+        public static final int login=0x7f030003;
+        public static final int login1=0x7f030004;
+        public static final int propress_dialog=0x7f030005;
+        public static final int sign=0x7f030006;
     }
     public static final class string {
         public static final int action_settings=0x7f070002;
@@ -111,15 +133,22 @@ public final class R {
         public static final int hello_world=0x7f070001;
         public static final int loadinglocal=0x7f07000b;
         public static final int loginName=0x7f070004;
+        public static final int login_1=0x7f07000c;
         public static final int login_btn=0x7f070006;
         public static final int login_title=0x7f070003;
         public static final int sign=0x7f07000a;
+        public static final int signt1=0x7f07000d;
+        public static final int signt2=0x7f07000e;
+        public static final int signt3=0x7f07000f;
         public static final int tell=0x7f070005;
+        public static final int toast=0x7f070010;
+        public static final int toast1=0x7f070011;
         public static final int toast11=0x7f070009;
         public static final int toasta=0x7f070007;
         public static final int toastb=0x7f070008;
     }
     public static final class style {
+        public static final int activityTheme=0x7f080001;
         public static final int dialog=0x7f080000;
     }
 }
